@@ -1,0 +1,37 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .fp-input-details{
+     margin: 15px 0px !important;
+ }
+
+#fp-submit{
+     margin-top: 20px !important;
+     padding: 5px 10px;
+}
+
+ #fileToUpload{
+     margin-top: 20px !important;
+ }
+
+ #fp-submit input[type=file] {
+    display:none;
+    margin:10px;
+    background-color: #500731;
+    }
+    #fp-submit input[type=file] + label {
+    display:inline-block;
+    margin:20px;
+    padding: 4px 32px;
+    background-color: #FFFFFF;
+    border:solid 1px #045dac;
+    border-radius: 6px;
+    color:#500731;
+    }
+    #fp-submit input[type=file]:active + label {
+    background-image: none;
+    background-color:#2D6C7A;
+    color:#FFFFFF;
+    }

@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .fb_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  .fb_table td, .fb_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .fb_table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .fb_table tr:hover {background-color: #ddd;}
+  
+  .fb_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #fp-delete-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ }
